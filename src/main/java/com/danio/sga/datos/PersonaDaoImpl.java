@@ -1,5 +1,5 @@
 package com.danio.sga.datos;
-
+    
 import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.*;
@@ -8,7 +8,7 @@ import com.danio.sga.domain.Persona;
 @Stateless 
 public class PersonaDaoImpl implements PersonaDao{
     
-    @PersistenceContext(unitName="PersonaPU")
+    @PersistenceContext(unitName="SgaPU")
     EntityManager em;
 
     @Override
